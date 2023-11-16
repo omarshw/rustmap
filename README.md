@@ -15,7 +15,13 @@ git clone https://github.com/omar-shawkat/rustmap
 cd rustmap
 ```
 
-2. Run Rustmap with the target IP:
+2. Use the requirements.sh script to install Rust & Cargo
+```bash
+chmod +x requirements.sh
+sudo ./requirements.sh
+```
+
+3. Run Rustmap with the target IP:
 ```bash
 cargo run <ip_address>
 ```
